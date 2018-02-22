@@ -1,0 +1,223 @@
+﻿{
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/CustomerDCService/v2/Customers/EndCustomer*"
+        }
+      ]
+    },
+    "Methods": [
+      "get"
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "BodyAsJson": {
+      "isSuccessfulResponse": true,
+      "responseMessages": [],
+      "endCustomer": {
+        "baseInfo": {
+          "businessUnitId": 202,
+          "number": "",
+          "name": "",
+          "omegaCustomerNumber": null
+        },
+        "omegaCustomerNumber": "test_omegacustomernumber",
+        "companyNumber": "test company",
+        "salesSegment": "test sales segment",
+        "salesChannel": "test salses channel",
+        "salesPersonId": "test sales person id",
+        "customerCategoryType": "test customer category type",
+        "orgId": 302,
+        "billingAddresses": [
+          {
+            "contact": {
+              "contactId": null,
+              "customerNumber": null,
+              "first": null,
+              "last": null,
+              "middle": null,
+              "emailAddress": null,
+              "phones": [
+                {
+                  "countryCode": null,
+                  "areaCode": "00",
+                  "number": "0000000000",
+                  "phoneType": "Home",
+                  "extension": null,
+                  "partyContactMethodId": null
+                }
+              ],
+              "fax": null,
+              "department": null,
+              "title": null,
+              "titleDesc": null,
+              "mailStop": null,
+              "contactType": null,
+              "emailAddresses": null,
+              "createdOn": "0001-01-01T00:00:00",
+              "camLocationId": null
+            },
+            "contacts": null,
+            "isPrimaryBilling": false,
+            "isPrimaryShipping": false,
+            "isPrimaryMailing": false,
+            "isBilling": false,
+            "isShipping": false,
+            "isMailing": false,
+            "invoiceDeliveryMethod": null,
+            "invoiceDeliveryMethodCode": null,
+            "invoicePreference": null,
+            "invoicePreferenceCode": null,
+            "domsSequenceNumber": null,
+            "id": "0000000",
+            "companyName": "MARCH CPQ",
+            "line1": "000000 test street",
+            "line2": null,
+            "city": "Leicester",
+            "state": null,
+            "postalCode": "EL3 0LB",
+            "countryId": 0,
+            "countryCode": "Leicestershire",
+            "country": "GB",
+            "status": null,
+            "statusDescription": null,
+            "statusReasonDescription": null,
+            "type": null,
+            "partyId": null,
+            "camLocationId": null,
+            "createDate": null,
+            "contractRoleId": null,
+            "customerNumber": null,
+            "camId": null,
+            "businessUnitId": 0,
+            "relationshipType": null,
+            "addressSequenceNumber": "834975894895",
+            "canShipTo": true,
+            "canBillTo": true,
+            "canMailTo": false,
+            "isPrimary": true
+          }
+        ],
+        "shippingAddresses": [
+          {
+            "contact": {
+              "contactId": null,
+              "customerNumber": null,
+              "first": null,
+              "last": null,
+              "middle": null,
+              "emailAddress": null,
+              "phones": [
+                {
+                  "countryCode": null,
+                  "areaCode": "765776567",
+                  "number": "9879798098098098090",
+                  "phoneType": "Home",
+                  "extension": null,
+                  "partyContactMethodId": null
+                }
+              ],
+              "fax": null,
+              "department": null,
+              "title": null,
+              "titleDesc": null,
+              "mailStop": null,
+              "contactType": null,
+              "emailAddresses": null,
+              "createdOn": "0001-01-01T00:00:00",
+              "camLocationId": null
+            },
+            "contacts": null,
+            "isPrimaryBilling": false,
+            "isPrimaryShipping": false,
+            "isPrimaryMailing": false,
+            "isBilling": false,
+            "isShipping": false,
+            "isMailing": false,
+            "invoiceDeliveryMethod": null,
+            "invoiceDeliveryMethodCode": null,
+            "invoicePreference": null,
+            "invoicePreferenceCode": null,
+            "domsSequenceNumber": null,
+            "id": "6887979877899",
+            "companyName": "MARCH CPQ",
+            "line1": "2 Saxon Street",
+            "line2": null,
+            "city": "Leicester",
+            "state": null,
+            "postalCode": "LE3 0BL",
+            "countryId": 0,
+            "countryCode": "Leicestershire",
+            "country": "GB",
+            "status": null,
+            "statusDescription": null,
+            "statusReasonDescription": null,
+            "type": null,
+            "partyId": null,
+            "camLocationId": null,
+            "createDate": null,
+            "contractRoleId": null,
+            "customerNumber": null,
+            "camId": null,
+            "businessUnitId": 0,
+            "relationshipType": null,
+            "addressSequenceNumber": "7869987987",
+            "canShipTo": true,
+            "canBillTo": true,
+            "canMailTo": false,
+            "isPrimary": true
+          }
+        ],
+        "mailingAddresses": [],
+        "baseAddress": {
+          "contact": null,
+          "contacts": null,
+          "isPrimaryBilling": false,
+          "isPrimaryShipping": false,
+          "isPrimaryMailing": false,
+          "isBilling": false,
+          "isShipping": false,
+          "isMailing": false,
+          "invoiceDeliveryMethod": null,
+          "invoiceDeliveryMethodCode": null,
+          "invoicePreference": null,
+          "invoicePreferenceCode": null,
+          "domsSequenceNumber": null,
+          "id": null,
+          "companyName": null,
+          "line1": null,
+          "line2": null,
+          "city": null,
+          "state": null,
+          "postalCode": null,
+          "countryId": 0,
+          "countryCode": null,
+          "country": null,
+          "status": null,
+          "statusDescription": null,
+          "statusReasonDescription": null,
+          "type": null,
+          "partyId": null,
+          "camLocationId": null,
+          "createDate": null,
+          "contractRoleId": null,
+          "customerNumber": null,
+          "camId": null,
+          "businessUnitId": 0,
+          "relationshipType": null,
+          "addressSequenceNumber": null,
+          "canShipTo": false,
+          "canBillTo": false,
+          "canMailTo": false,
+          "isPrimary": false
+        }
+      }
+    },
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

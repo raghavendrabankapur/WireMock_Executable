@@ -1,0 +1,223 @@
+﻿{
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/CustomerDCService/v2/Customers/EndCustomer*"
+        }
+      ]
+    },
+    "Methods": [
+      "get"
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "BodyAsJson": {
+      "isSuccessfulResponse": true,
+      "responseMessages": [],
+      "endCustomer": {
+        "baseInfo": {
+          "businessUnitId": 202,
+          "number": "",
+          "name": "",
+          "omegaCustomerNumber": null
+        },
+        "omegaCustomerNumber": "38489582034950",
+        "companyNumber": "test company",
+        "salesSegment": "PUBL",
+        "salesChannel": "GB_PDHH",
+        "salesPersonId": "23804938",
+        "customerCategoryType": "GB_VAR",
+        "orgId": 302,
+        "billingAddresses": [
+          {
+            "contact": {
+              "contactId": null,
+              "customerNumber": null,
+              "first": null,
+              "last": null,
+              "middle": null,
+              "emailAddress": null,
+              "phones": [
+                {
+                  "countryCode": null,
+                  "areaCode": "44",
+                  "number": "289347598234705",
+                  "phoneType": "Home",
+                  "extension": null,
+                  "partyContactMethodId": null
+                }
+              ],
+              "fax": null,
+              "department": null,
+              "title": null,
+              "titleDesc": null,
+              "mailStop": null,
+              "contactType": null,
+              "emailAddresses": null,
+              "createdOn": "0001-01-01T00:00:00",
+              "camLocationId": null
+            },
+            "contacts": null,
+            "isPrimaryBilling": false,
+            "isPrimaryShipping": false,
+            "isPrimaryMailing": false,
+            "isBilling": false,
+            "isShipping": false,
+            "isMailing": false,
+            "invoiceDeliveryMethod": null,
+            "invoiceDeliveryMethodCode": null,
+            "invoicePreference": null,
+            "invoicePreferenceCode": null,
+            "domsSequenceNumber": null,
+            "id": "15372128",
+            "companyName": "test company",
+            "line1": "address 1",
+            "line2": null,
+            "city": "Leicester",
+            "state": null,
+            "postalCode": "9203840",
+            "countryId": 0,
+            "countryCode": "country code",
+            "country": "GB",
+            "status": null,
+            "statusDescription": null,
+            "statusReasonDescription": null,
+            "type": null,
+            "partyId": null,
+            "camLocationId": null,
+            "createDate": null,
+            "contractRoleId": null,
+            "customerNumber": null,
+            "camId": null,
+            "businessUnitId": 0,
+            "relationshipType": null,
+            "addressSequenceNumber": "15372128",
+            "canShipTo": true,
+            "canBillTo": true,
+            "canMailTo": false,
+            "isPrimary": true
+          }
+        ],
+        "shippingAddresses": [
+          {
+            "contact": {
+              "contactId": null,
+              "customerNumber": null,
+              "first": null,
+              "last": null,
+              "middle": null,
+              "emailAddress": null,
+              "phones": [
+                {
+                  "countryCode": null,
+                  "areaCode": "983748239",
+                  "number": "29384093824",
+                  "phoneType": "Home",
+                  "extension": null,
+                  "partyContactMethodId": null
+                }
+              ],
+              "fax": null,
+              "department": null,
+              "title": null,
+              "titleDesc": null,
+              "mailStop": null,
+              "contactType": null,
+              "emailAddresses": null,
+              "createdOn": "0001-01-01T00:00:00",
+              "camLocationId": null
+            },
+            "contacts": null,
+            "isPrimaryBilling": false,
+            "isPrimaryShipping": false,
+            "isPrimaryMailing": false,
+            "isBilling": false,
+            "isShipping": false,
+            "isMailing": false,
+            "invoiceDeliveryMethod": null,
+            "invoiceDeliveryMethodCode": null,
+            "invoicePreference": null,
+            "invoicePreferenceCode": null,
+            "domsSequenceNumber": null,
+            "id": "15372128",
+            "companyName": "test company",
+            "line1": "address 1",
+            "line2": null,
+            "city": "test city",
+            "state": null,
+            "postalCode": "29384093",
+            "countryId": 0,
+            "countryCode": "test country code",
+            "country": "GB",
+            "status": null,
+            "statusDescription": null,
+            "statusReasonDescription": null,
+            "type": null,
+            "partyId": null,
+            "camLocationId": null,
+            "createDate": null,
+            "contractRoleId": null,
+            "customerNumber": null,
+            "camId": null,
+            "businessUnitId": 0,
+            "relationshipType": null,
+            "addressSequenceNumber": "15372128",
+            "canShipTo": true,
+            "canBillTo": true,
+            "canMailTo": false,
+            "isPrimary": true
+          }
+        ],
+        "mailingAddresses": [],
+        "baseAddress": {
+          "contact": null,
+          "contacts": null,
+          "isPrimaryBilling": false,
+          "isPrimaryShipping": false,
+          "isPrimaryMailing": false,
+          "isBilling": false,
+          "isShipping": false,
+          "isMailing": false,
+          "invoiceDeliveryMethod": null,
+          "invoiceDeliveryMethodCode": null,
+          "invoicePreference": null,
+          "invoicePreferenceCode": null,
+          "domsSequenceNumber": null,
+          "id": null,
+          "companyName": null,
+          "line1": null,
+          "line2": null,
+          "city": null,
+          "state": null,
+          "postalCode": null,
+          "countryId": 0,
+          "countryCode": null,
+          "country": null,
+          "status": null,
+          "statusDescription": null,
+          "statusReasonDescription": null,
+          "type": null,
+          "partyId": null,
+          "camLocationId": null,
+          "createDate": null,
+          "contractRoleId": null,
+          "customerNumber": null,
+          "camId": null,
+          "businessUnitId": 0,
+          "relationshipType": null,
+          "addressSequenceNumber": null,
+          "canShipTo": false,
+          "canBillTo": false,
+          "canMailTo": false,
+          "isPrimary": false
+        }
+      }
+    },
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

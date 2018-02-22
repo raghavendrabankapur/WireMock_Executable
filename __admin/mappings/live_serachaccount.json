@@ -1,0 +1,45 @@
+﻿{
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/CustomerDCService/v2/Account/searchaccount*"
+        }
+      ]
+    },
+    "Methods": [
+      "get"
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "BodyAsJson": 
+      {
+        "isSuccessfulResponse": true,
+        "responseMessages": [],
+        "account": {
+          "affinityId": "89234930824938",
+          "accountName": "test account number 1",
+          "status": "ACTIVE",
+          "primarySalesRep": "421725",
+          "accountNotifications": null,
+          "category": "Partner",
+          "type": "ACCOUNT",
+          "country": "GB",
+          "customers": [
+            {
+              "businessUnitId": 83974,
+              "number": "29837498739847",
+              "name": "address one",
+              "omegaFlag": "Y",
+              "companyNumber": "KLDJFLDK"
+            }
+          ]
+        }
+    },
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "Guid": "2be09d60-fe01-45c2-957f-febd177f71bf",
+  "Title": "",
+  "Priority": 0,
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/__admin_mappings"
+        }
+      ]
+    },
+    "Methods": [
+      "get"
+    ],
+    "Headers": [
+      {
+        "Name": "Postman-Token",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "167d73b2-1cb6-d2f3-4c4c-77b877700e11"
+          }
+        ]
+      },
+      {
+        "Name": "Cache-Control",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "no-cache"
+          }
+        ]
+      },
+      {
+        "Name": "Connection",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "keep-alive"
+          }
+        ]
+      },
+      {
+        "Name": "Accept",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "*/*"
+          }
+        ]
+      },
+      {
+        "Name": "Accept-Encoding",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "gzip, deflate, br"
+          }
+        ]
+      },
+      {
+        "Name": "Accept-Language",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "en,es;q=0.9,de;q=0.8,ko;q=0.7,en-US;q=0.6,ja;q=0.5"
+          }
+        ]
+      },
+      {
+        "Name": "Host",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "localhost:8888"
+          }
+        ]
+      },
+      {
+        "Name": "User-Agent",
+        "Matchers": [
+          {
+            "Name": "WildcardMatcher",
+            "Pattern": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+          }
+        ]
+      }
+    ]
+  },
+  "Response": {
+    "StatusCode": 302,
+    "Body": "<html><head><title>Object moved</title></head><body>\r\n<h2>Object moved to <a href=\"%2fcontent%2fpublic%2fnotfound.aspx%3fsearched%3dhttp%3a%2f%2fwww.dell.com%3a80%2f__admin_mappings\">here</a>.</h2>\r\n</body></html>\r\n",
+    "BodyAsBytes": "PGh0bWw+PGhlYWQ+PHRpdGxlPk9iamVjdCBtb3ZlZDwvdGl0bGU+PC9oZWFkPjxib2R5Pg0KPGgyPk9iamVjdCBtb3ZlZCB0byA8YSBocmVmPSIlMmZjb250ZW50JTJmcHVibGljJTJmbm90Zm91bmQuYXNweCUzZnNlYXJjaGVkJTNkaHR0cCUzYSUyZiUyZnd3dy5kZWxsLmNvbSUzYTgwJTJmX19hZG1pbl9tYXBwaW5ncyI+aGVyZTwvYT4uPC9oMj4NCjwvYm9keT48L2h0bWw+DQo=",
+    "BodyEncoding": {
+      "CodePage": 65001,
+      "EncodingName": "Unicode (UTF-8)",
+      "WebName": "utf-8"
+    },
+    "UseTransformer": false,
+    "Headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "215",
+      "X-Powered-By": [
+        "ASP.NET",
+        "ARR/2.5",
+        "ASP.NET"
+      ],
+      "Date": "Thu, 11 Jan 2018 07:38:03 GMT",
+      "X-UA-Compatible": [
+        "IE=edge,chrome=1",
+        "IE=edge"
+      ],
+      "Server": "Microsoft-IIS/7.5",
+      "Location": "/content/public/notfound.aspx?searched=http://www.dell.com:80/__admin_mappings",
+      "ARR": "G4",
+      "P3P": "CP=\" BUS CAO CNT COM CUR DEV DSP INT NAV OUR PSA PSD SAM STA TAI UNI \""
+    }
+  }
+}

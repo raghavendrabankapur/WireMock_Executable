@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WireMock.Net.StandAlone</name>
+    </assembly>
+    <members>
+        <member name="T:WireMock.Net.StandAlone.StandAloneApp">
+            <summary>
+            The StandAloneApp
+            </summary>
+        </member>
+        <member name="M:WireMock.Net.StandAlone.StandAloneApp.Start(WireMock.Settings.FluentMockServerSettings)">
+            <summary>
+            Start WireMock.Net standalone based on the FluentMockServerSettings.
+            </summary>
+            <param name="settings">The FluentMockServerSettings</param>
+        </member>
+        <member name="M:WireMock.Net.StandAlone.StandAloneApp.Start(System.String[])">
+            <summary>
+            Start WireMock.Net standalone based on the commandline arguments.
+            </summary>
+            <param name="args">The commandline arguments</param>
+        </member>
+    </members>
+</doc>
